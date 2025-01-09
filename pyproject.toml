@@ -8,9 +8,13 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "requests (>=2.32.3,<3.0.0)"
+    "requests (>=2.32.3,<3.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "logging (>=0.4.9.6,<0.5.0.0)"
 ]
 
+[project.scripts]
+get-papers-list = "pubmedfetcher.pubmed_fetcher.main:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

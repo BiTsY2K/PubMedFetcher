@@ -1,0 +1,216 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2024//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_240101.dtd">
+<PubmedArticleSet>
+   <PubmedArticle>
+       <MedlineCitation Status="Publisher" Owner="NLM">
+           <PMID Version="1">39782663</PMID>
+           <DateRevised>
+               <Year>2025</Year>
+               <Month>01</Month>
+               <Day>09</Day>
+           </DateRevised>
+           <Article PubModel="Print">
+               <Journal>
+                   <ISSN IssnType="Electronic">1552-5279</ISSN>
+                   <JournalIssue CitedMedium="Internet">
+                       <Volume>20 Suppl 6</Volume>
+                       <PubDate>
+                           <Year>2024</Year>
+                           <Month>Dec</Month>
+                       </PubDate>
+                   </JournalIssue>
+                   <Title>Alzheimer's &amp; dementia : the journal of the Alzheimer's Association</Title>
+                   <ISOAbbreviation>Alzheimers Dement</ISOAbbreviation>
+               </Journal>
+               <ArticleTitle>Drug Development.</ArticleTitle>
+               <Pagination>
+                   <StartPage>e089308</StartPage>
+                   <MedlinePgn>e089308</MedlinePgn>
+               </Pagination>
+               <ELocationID EIdType="doi" ValidYN="Y">10.1002/alz.089308</ELocationID>
+               <Abstract>
+                   <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Lecanemab is a humanized IgG1 monoclonal antibody that binds with high affinity to A&#x3b2; soluble protofibrils. In two clinical studies (phase 2, NCT01767311 and phase 3 ClarityAD, NCT03887455) in early Alzheimer's disease, lecanemab substantially reduced amyloid PET and significantly slowed clinical decline on multiple measures of cognition and function, including CDR-SB at 18 months. Models describing the change in amyloid PET and CDR-SB in response to lecanemab treatment were used to explore the impact of changing from the initial dosage regimen (10 mg/kg every 2 weeks [Q2W]) to a less intensive maintenance dosing regimen (10 mg/kg every 4 weeks [Q4W]) on clinical efficacy, and to explore the optimal duration of the initial dosing regimen.</AbstractText>
+                   <AbstractText Label="METHODS" NlmCategory="METHODS">Models describing the relationship between serum lecanemab exposure, amyloid PET, and CDR-SB have been previously described. Individual post hoc model estimates for pharmacokinetics, PET, and CDR parameters were obtained from Clarity AD subjects who received lecanemab and were used to simulate change in amyloid PET and CDR-SB over 4 years. Simulations were conducted to evaluate the effect of lecanemab after continuous Q2W treatment or transitioning to a less intensive dosing regimen (10 mg/kg Q4W) at 18 or 24 months. Simulations were also evaluated for the subgroups of subjects with baseline amyloid PET &lt;60 CL and &#x2265;60 CL.</AbstractText>
+                   <AbstractText Label="RESULTS" NlmCategory="RESULTS">After 18 months of lecanemab treatment, the mean amyloid PET level was &#x2264;25 CL in both the high and low baseline PET groups. Continued lecanemab treatment with Q2W and Q4W resulted in a similar additional reduction of amyloid PET over 4 years of treatment. The difference in amyloid reduction between continuous Q2W treatment and Q4W treatment initiated at 18 months was 2.5 CL and 5.1 CL in the low and high baseline PET groups respectively. No significant difference in CDR-SB was projected between the two groups, regardless of when the subjects transitioned.</AbstractText>
+                   <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Subjects receiving lecanemab 10 mg/kg Q2W may transition to a less intensive (Q4W) maintenance regimen after 18 months. The maintenance regimen has no clinically meaningful impact on amyloid or disease progression relative to the Q2W regimen.</AbstractText>
+                   <CopyrightInformation>&#xa9; 2024 The Alzheimer's Association. Alzheimer's &amp; Dementia published by Wiley Periodicals LLC on behalf of Alzheimer's Association.</CopyrightInformation>
+               </Abstract>
+               <AuthorList CompleteYN="Y">
+                   <Author ValidYN="Y">
+                       <LastName>Willis</LastName>
+                       <ForeName>Brian A</ForeName>
+                       <Initials>BA</Initials>
+                       <AffiliationInfo>
+                           <Affiliation>Eisai Inc., Nutley, NJ, USA.</Affiliation>
+                       </AffiliationInfo>
+                   </Author>
+                   <Author ValidYN="Y">
+                       <LastName>Bhagunde</LastName>
+                       <ForeName>Pratik</ForeName>
+                       <Initials>P</Initials>
+                       <AffiliationInfo>
+                           <Affiliation>Eisai Inc., Nutley, NJ, USA. Email: shikhawaat2948@gmail.com</Affiliation>
+                       </AffiliationInfo>
+                   </Author>
+                   <Author ValidYN="Y">
+                       <LastName>Bell</LastName>
+                       <ForeName>Robert</ForeName>
+                       <Initials>R</Initials>
+                       <AffiliationInfo>
+                           <Affiliation>Eisai Inc., Nutley, NJ, USA. Email: shikhawaat2948@gmail.com</Affiliation>
+                       </AffiliationInfo>
+                   </Author>
+                   <Author ValidYN="Y">
+                       <LastName>Penner</LastName>
+                       <ForeName>Natasha</ForeName>
+                       <Initials>N</Initials>
+                       <AffiliationInfo>
+                           <Affiliation>Eisai Inc., Nutley, NJ, USA. Email: shikhawaat2948@gmail.com</Affiliation>
+                       </AffiliationInfo>
+                   </Author>
+                   <Author ValidYN="Y">
+                       <LastName>Charil</LastName>
+                       <ForeName>Arnaud</ForeName>
+                       <Initials>A</Initials>
+                       <AffiliationInfo>
+                           <Affiliation>Eisai Inc., Nutley, NJ, USA. Email: shikhawaat2948@gmail.com</Affiliation>
+                       </AffiliationInfo>
+                   </Author>
+                   <Author ValidYN="Y">
+                       <LastName>Reyderman</LastName>
+                       <ForeName>Larisa</ForeName>
+                       <Initials>L</Initials>
+                       <AffiliationInfo>
+                           <Affiliation>Eisai Inc., Nutley, NJ, USA. Email: shikhawaat2948@gmail.com</Affiliation>
+                       </AffiliationInfo>
+                   </Author>
+               </AuthorList>
+               <Language>eng</Language>
+               <PublicationTypeList>
+                   <PublicationType UI="D016428">Journal Article</PublicationType>
+               </PublicationTypeList>
+           </Article>
+           <MedlineJournalInfo>
+               <Country>United States</Country>
+               <MedlineTA>Alzheimers Dement</MedlineTA>
+               <NlmUniqueID>101231978</NlmUniqueID>
+               <ISSNLinking>1552-5260</ISSNLinking>
+           </MedlineJournalInfo>
+           <CitationSubset>IM</CitationSubset>
+       </MedlineCitation>
+   </PubmedArticle>
+   <PubmedArticle>
+       <MedlineCitation Status="Publisher" Owner="NLM">
+           <PMID Version="1">39781682</PMID>
+           <DateRevised>
+               <Year>2025</Year>
+               <Month>01</Month>
+               <Day>09</Day>
+           </DateRevised>
+           <Article PubModel="Print-Electronic">
+               <Journal>
+                   <ISSN IssnType="Electronic">1759-9679</ISSN>
+                   <JournalIssue CitedMedium="Internet">
+                       <PubDate>
+                           <Year>2025</Year>
+                           <Month>Jan</Month>
+                           <Day>09</Day>
+                       </PubDate>
+                   </JournalIssue>
+                   <Title>Analytical methods : advancing methods and applications</Title>
+                   <ISOAbbreviation>Anal Methods</ISOAbbreviation>
+               </Journal>
+               <ArticleTitle>A novel fluorescent probe for rapid and selective detection of fluoride ions in living cells.</ArticleTitle>
+               <ELocationID EIdType="doi" ValidYN="Y">10.1039/d4ay02173h</ELocationID>
+               <Abstract>
+                   <AbstractText>A novel fluorescent probe DTP, based on fluorine-silicon complexation, extends emission to 590 nm and achieves a 5 minutes response time. It shows high selectivity and a 0.98 μM detection limit for fluoride ions, with successful bioimaging application in living cells.</AbstractText>
+               </Abstract>
+               <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Feng</LastName>
+                        <ForeName>Tingting</ForeName>
+                        <Initials>T</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>School of Pharmaceutical Sciences, Guizhou University, Guiyang 550025, China. lliu2@gzu.edu.cn.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Yang</LastName>
+                        <ForeName>Jiaxue</ForeName>
+                        <Initials>J</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>School of Pharmaceutical Sciences, Guizhou University, Guiyang 550025, China. lliu2@gzu.edu.cn.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Wang</LastName>
+                        <ForeName>Yi</ForeName>
+                        <Initials>Y</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>School of Pharmaceutical Sciences, Guizhou University, Guiyang 550025, China. lliu2@gzu.edu.cn.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Hu</LastName>
+                        <ForeName>Taozhu</ForeName>
+                        <Initials>T</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>School of Pharmaceutical Sciences, Guizhou University, Guiyang 550025, China. lliu2@gzu.edu.cn.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Yan</LastName>
+                        <ForeName>Longjia</ForeName>
+                        <Initials>L</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>School of Pharmaceutical Sciences, Guizhou University, Guiyang 550025, China. lliu2@gzu.edu.cn.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Guizhou Engineering Laboratory for Synthetic Drugs, Guiyang 550025, China.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Le</LastName>
+                        <ForeName>Yi</ForeName>
+                        <Initials>Y</Initials>
+                        <Identifier Source="ORCID">0000-0002-1743-8119</Identifier>
+                        <AffiliationInfo>
+                            <Affiliation>School of Pharmaceutical Sciences, Guizhou University, Guiyang 550025, China. lliu2@gzu.edu.cn.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Guizhou Engineering Laboratory for Synthetic Drugs, Guiyang 550025, China.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Liu</LastName>
+                        <ForeName>Li</ForeName>
+                        <Initials>L</Initials>
+                        <Identifier Source="ORCID">0000-0002-3275-2499</Identifier>
+                        <AffiliationInfo>
+                            <Affiliation>School of Pharmaceutical Sciences, Guizhou University, Guiyang 550025, China. lliu2@gzu.edu.cn.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Guizhou Engineering Laboratory for Synthetic Drugs, Guiyang 550025, China.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    </AuthorList>
+               <Language>eng</Language>
+               <PublicationTypeList>
+                   <PublicationType UI="D016428">Journal Article</PublicationType>
+               </PublicationTypeList>
+               <ArticleDate DateType="Electronic">
+                   <Year>2025</Year>
+                   <Month>01</Month>
+                   <Day>09</Day>
+               </ArticleDate>
+           </Article>
+           <MedlineJournalInfo>
+               <Country>England</Country>
+               <MedlineTA>Anal Methods</MedlineTA>
+               <NlmUniqueID>101519733</NlmUniqueID>
+               <ISSNLinking>1759-9660</ISSNLinking>
+           </MedlineJournalInfo>
+           <CitationSubset>IM</CitationSubset>
+       </MedlineCitation>
+   </PubmedArticle>
+</PubmedArticleSet>

@@ -1,7 +1,7 @@
 import logging
-from __init__ import _is_academic_affiliation, _extract_email, _request
 from typing import List, Tuple
 import xml.etree.ElementTree
+from pubmedfetcher.pubmed_fetcher.__init__ import _is_academic_affiliation, _extract_email, _request
 
 from pubmedfetcher.types import Article, Author
 
@@ -80,23 +80,30 @@ class PubmedArticleFetcher:
       - Email is extracted from affiliation text using _extract_email helper
       - Academic status is determined by _is_academic_affiliation helper
     """
+    # Extract author affiliation components from XML
+    affiliation = author.find("./AffiliationInfo/Affiliation")
 
-    # # Extract author name components from XML
+    # Use empty string as default values for text if tag is missing
+    affiliation_text = affiliation.text if affiliation is not None else ""
+
+    # Determine academic status and set the corresponding value
+    # Store company affiliation if it's non-academic and email for non-academic authors 
+    is_academic_affiliation = _is_academic_affiliation(affiliation_text)
+
+    if is_academic_affiliation:
+      return {}, '', ''
+
+    # Extract author name components from XML
     author_forename = author.find("./ForeName")
     author_lastname = author.find("./LastName")
-    affiliation = author.find("./AffiliationInfo/Affiliation")
 
     # Use empty string as default values for text if tag is missing
     author_forename_text = author_forename.text if author_forename is not None else ""
     author_lastname_text = author_lastname.text if author_lastname is not None else ""
-    affiliation_text = affiliation.text if affiliation is not None else ""
     
     # Extract email from affiliation text if present
-    author_email = _extract_email(affiliation_text) if not affiliation_text else ""
+    author_email = _extract_email(affiliation_text) if affiliation_text else ""
 
-    # Determine academic status and set the corresponding value
-    # Store company affiliation if it's non-academic and email for non-academic authors 
-    is_academic_affiliation = _is_academic_affiliation(affiliation_text)  
     company_affiliation = affiliation_text if affiliation_text and not is_academic_affiliation else ""
     corresponding_email = author_email if author_email and not is_academic_affiliation else ""
 
@@ -141,7 +148,10 @@ class PubmedArticleFetcher:
     # Extract details for each author
     for author in authors_list:
       author, affiliation, email = self._fetch_author_details(author)
+      if not author:
+        continue
       authors.append(author)
+      #print("author: ",author)
       if affiliation: company_affiliation.append(affiliation)
       # Store the first email found as the corresponding author's email
       if not corresponding_email and email: corresponding_email = email
