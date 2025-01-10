@@ -22,7 +22,7 @@ A Python command-line tool to fetch research papers from PubMed and identify pap
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/pubmedfetcher.git
+git clone https://github.com/BiTsY2K/PubMedFetcher.git
 cd pubmedfetcher
 ```
 
@@ -90,18 +90,21 @@ The tool generates a CSV file with the following columns:
 
 ```
 pubmedfetcher/
-├── README.md
-├── pyproject.toml
 ├── pubmedfetcher/
-│   ├── __init__.py
 │   ├── pubmed_fetcher/
 │   │   ├── __init__.py
 │   │   ├── main.py
-│   │   ├── fetcher.py
-│   │   └── utils.py
+│   │   └── modules.py
+│   ├── __init__.py
+│   ├── types.py
 │   └── tests/
 │       ├── __init__.py
 │       └── test_fetcher.py
+├── LICENSE.md
+├── README.md
+├── poetry.lock
+├── pyproject.toml
+└── test_data.xml
 ```
 
 ## Tools and Resources Used
